@@ -1,0 +1,47 @@
+.item-card {
+  border: 2px black solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 90%;
+}
+
+.item-name {
+  font-weight: 800;
+}
+
+.item-pic {
+  max-width: 25%;
+  margin: 10px;
+}
+
+.item-desc {
+  font-size: 12px;
+  margin: 10px;
+}
+
+.add-button {
+  background-color: #27251f;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

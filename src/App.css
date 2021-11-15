@@ -1,38 +1,76 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #27251f;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 30px;
   color: white;
+  font-weight: 800;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-main {
+  background-color: #00704a;
+  align-items: center;
+  justify-content: center;
+  padding-top: 215px;
+  padding-bottom: 215px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-login {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+input[type="text"],
+[type="password"] {
+  padding: 5px 10px;
+  margin: 4px 4px;
+  box-sizing: border-box;
+}
+
+.App-footer {
+  background-color: #27251f;
+  padding: 35px;
+  color: white;
+  font-size: 10px;
+}
+
+.sign-in {
+  margin: 20px;
+}
+
+.submit-button {
+  background-color: #27251f;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.new-user {
+  font-weight: 800;
+}
+
+.sign-up-button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 12px;
+  text-decoration: underline;
 }

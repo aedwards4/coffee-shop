@@ -1,0 +1,28 @@
+.order-menu {
+  text-align: center;
+}
+
+.order-header {
+  background-color: #27251f;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.cart-img {
+  max-width: 2%;
+  filter: invert(100%) sepia(3%) saturate(8%) hue-rotate(66deg) brightness(103%)
+    contrast(104%);
+}
+
+.header-options {
+  text-align: right;
+  font-size: 15px;
+}
+
+.items-container {
+  background-color: #00704a;
+}
