@@ -32,6 +32,7 @@ table {
   padding: 10px;
   margin-left: 100px;
   border: 2px solid black;
+  height: fit-content;
 }
 
 .checkout-header {
@@ -56,6 +57,7 @@ table {
   background-color: white;
   border: 2px solid black;
   width: 800px;
+  margin-bottom: 200px;
 }
 
 input[type="radio"] {
@@ -64,4 +66,8 @@ input[type="radio"] {
 
 form {
   margin: 20px;
+}
+
+.delivery-info {
+  /* visibility: hidden; */
 }
