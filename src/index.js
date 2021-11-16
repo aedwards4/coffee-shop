@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import SignUp from './SignUp';
 import OrderMenu from "./OrderMenu";
+import Checkout from './Checkout';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <SignUp /> */}
-    <OrderMenu />
+    {/* <OrderMenu /> */}
+    <Checkout />
   </React.StrictMode>,
   document.getElementById('root')
 );
