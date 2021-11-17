@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './Header.js';
-import './Checkout.css';
+// import './Checkout.css';
+import './styles/Checkout.css';
 
 class Checkout extends React.Component {
 
@@ -66,6 +67,9 @@ class Checkout extends React.Component {
                                 <td>$6.97</td>
                             </tr>
                         </table>
+                        <br/>
+                        <div className="order-details-header" style={{fontSize: 14+'px'}}>Reward Points Available:<br/>500</div> 
+                        <button className="apply-rewards-button">Apply Rewards</button>
                     </div>
                 
                 </div>

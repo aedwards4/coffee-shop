@@ -1,0 +1,36 @@
+.pos {
+  text-align: center;
+  background-color: #00704a;
+}
+
+.cart-items {
+  margin: auto;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+table {
+  margin: auto;
+  width: 75%;
+}
+
+button {
+  max-width: fit-content;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-img {
+  max-width: 25%;
+}
+
+.update-img {
+  max-width: 40%;
+}
+
+footer {
+  margin-top: 300px;
+}

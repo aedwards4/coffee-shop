@@ -1,7 +1,7 @@
 import React from "react";
 import HamburgerMenu from "react-hamburger-menu";
-import cart from './cart.png';
-import './OrderMenu.css';
+import cart from '../images/cart.png';
+import './styles/OrderMenu.css';
 
 class Header extends React.Component {
 

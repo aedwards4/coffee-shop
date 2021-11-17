@@ -1,7 +1,7 @@
 import React from "react";
 import ItemCard from "./ItemCard.js";
-import './OrderMenu.css';
-import Header from './Header.js';
+import './styles/OrderMenu.css';
+import Header from './Header';
 
 // function OrderMenu() {
 class OrderMenu extends React.Component {

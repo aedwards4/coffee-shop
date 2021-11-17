@@ -1,0 +1,13 @@
+.update-image {
+  max-width: 15%;
+}
+
+.update-button {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+.item-update {
+  display: flex;
+}

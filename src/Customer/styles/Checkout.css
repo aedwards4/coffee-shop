@@ -71,3 +71,19 @@ form {
 .delivery-info {
   /* visibility: hidden; */
 }
+
+.apply-rewards-button {
+  background-color: #27251f;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  /* visibility: hidden; */
+}

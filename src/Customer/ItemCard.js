@@ -1,5 +1,5 @@
-import "./ItemCard.css";
-import coffee from './coffee.png';
+import "./styles/ItemCard.css";
+import coffee from '../images/coffee.png';
 
 
 function ItemCard() {
