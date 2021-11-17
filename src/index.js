@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import SignUp from './SignUp';
+import SignUp from './Customer/SignUp';
 import OrderMenu from "./Customer/OrderMenu";
 import Checkout from './Customer/Checkout';
 import POS from './Customer/POS';
-import reportWebVitals from './reportWebVitals';
 import ManagerInventory from './Admin/ManagerInventory';
+import ItemUpdate from './Admin/ItemUpdate';
+import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +18,8 @@ ReactDOM.render(
     {/* <OrderMenu /> */}
     {/* <Checkout /> */}
     {/* <POS /> */}
-    <ManagerInventory/>
+    {/* <ManagerInventory/> */}
+    <ItemUpdate/>
   </React.StrictMode>,
   document.getElementById('root')
 );

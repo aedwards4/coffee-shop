@@ -24,6 +24,7 @@ function InventoryCard() {
                 <button className="update-button"><img src={plus} className="update-image"></img></button>
                 </div>
                 <button className="add-button">Add to Order</button>
+                <button className="add-button">Edit Item</button>
         </div>
 
     );
