@@ -8,6 +8,7 @@ import Checkout from './Customer/Checkout';
 import POS from './Customer/POS';
 import ManagerInventory from './Admin/ManagerInventory';
 import ItemUpdate from './Admin/ItemUpdate';
+import Reports from './Admin/Reports'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -19,7 +20,8 @@ ReactDOM.render(
     {/* <Checkout /> */}
     {/* <POS /> */}
     {/* <ManagerInventory/> */}
-    <ItemUpdate/>
+    {/* <ItemUpdate/> */}
+    <Reports/>
   </React.StrictMode>,
   document.getElementById('root')
 );
