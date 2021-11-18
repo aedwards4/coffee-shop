@@ -16,7 +16,7 @@ table {
   width: 75%;
 }
 
-button {
+.btns {
   max-width: fit-content;
   background: none;
   border: none;

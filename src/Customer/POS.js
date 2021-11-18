@@ -18,45 +18,45 @@ class POS extends React.Component {
                 <table>
                         <tr>
                             <td>
-                            <button><img src={minus} className="update-img"></img></button>
+                            <button className="btns"><img src={minus} className="update-img"></img></button>
                             </td>
                             <td>
                             1
                             </td>
                             <td>
-                            <button><img src={plus} className="update-img"></img></button>
+                            <button className="btns"><img src={plus} className="update-img"></img></button>
                             </td>
                             <td>Coffee</td>
                             <td>$3.99</td>
-                            <td><button><img src={remove} className="remove-img"></img></button></td>
+                            <td><button className="btns"><img src={remove} className="remove-img"></img></button></td>
                         </tr>
                         <tr>
                         <td>
-                            <button><img src={minus} className="update-img"></img></button>
+                            <button className="btns"><img src={minus} className="update-img"></img></button>
                             </td>
                             <td>
                             1
                             </td>
                             <td>
-                            <button><img src={plus} className="update-img"></img></button>
+                            <button className="btns"><img src={plus} className="update-img"></img></button>
                             </td>
                             <td>Bagel</td>
                             <td>$1.99</td>
-                            <td><button><img src={remove} className="remove-img"></img></button></td>
+                            <td><button className="btns"><img src={remove} className="remove-img"></img></button></td>
                         </tr>
                         <tr>
                          <td>
-                            <button><img src={minus} className="update-img"></img></button>
+                            <button className="btns"><img src={minus} className="update-img"></img></button>
                             </td>
                             <td>
                             1
                             </td>
                             <td>
-                            <button><img src={plus} className="update-img"></img></button>
+                            <button className="btns"><img src={plus} className="update-img"></img></button>
                             </td>
                             <td>Banana</td>
                             <td>$0.99</td>
-                            <td><button><img src={remove} className="remove-img"></img></button></td>
+                            <td><button className="btns"><img src={remove} className="remove-img"></img></button></td>
                         </tr>
                         <tr className="total-row">
                             <td></td>

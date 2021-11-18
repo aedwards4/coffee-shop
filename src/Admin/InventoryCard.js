@@ -17,11 +17,11 @@ function InventoryCard() {
             <div className="item-desc">
                 A short description of the item will go here.
             </div>
-            <div className="item-update">
+            <div className="inv-update">
             
-                <button className="update-button"><img src={minus} className="update-image"></img></button>
+                <button className="update-btns"><img src={minus} className="update-image"></img></button>
                 1
-                <button className="update-button"><img src={plus} className="update-image"></img></button>
+                <button className="update-btns"><img src={plus} className="update-image"></img></button>
                 </div>
                 <button className="add-button">Add to Order</button>
                 <button className="add-button">Edit Item</button>

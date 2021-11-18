@@ -9,7 +9,7 @@ class ItemUpdate extends React.Component {
     return (
         <div className="item-update">
             <Header cartCount='2' />
-
+            <div className="edit-item-header">Edit Item</div>
             <div className="edit-item">
                 <form>
                     <img src={coffee}/>

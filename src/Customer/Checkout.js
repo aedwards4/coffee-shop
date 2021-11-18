@@ -1,6 +1,5 @@
 import React from "react";
 import Header from './Header.js';
-// import './Checkout.css';
 import './styles/Checkout.css';
 
 class Checkout extends React.Component {
@@ -47,7 +46,7 @@ class Checkout extends React.Component {
 
                         </form>
                     </div>
-                    <div className="cart-items">
+                    <div className="cart">
                     <div className="order-details-header">Order Details</div>
                         <table>
                             <tr>

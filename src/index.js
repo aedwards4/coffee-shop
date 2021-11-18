@@ -14,14 +14,14 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <SignUp /> */}
     {/* <OrderMenu /> */}
     {/* <Checkout /> */}
     {/* <POS /> */}
     {/* <ManagerInventory/> */}
     {/* <ItemUpdate/> */}
-    <Reports/>
+    {/* <Reports/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
